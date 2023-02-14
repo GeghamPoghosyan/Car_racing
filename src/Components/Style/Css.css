@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.car_block1{
+    border-bottom: 2px black solid;
+    height: 100px;
+}
+.car_block2{
+    border-bottom: 2px black solid;
+    height: 100px;
+    transition: all;
+}
+.car_block3{
+    border-bottom: 2px black solid;
+    height: 100px;
+}
+.car1{
+    width: 150px;
+    height: 100px;
+    fill:chocolate;
+    margin-top: 28px;
+    transform: scaleX(-1);
+    position: relative;
+    transition: all;
+
+
+}
+.car2{
+    width: 150px;
+    height: 100px;
+    fill:green;
+    margin-top: 30px;
+    transform: scaleX(-1);
+    position: relative;
+    transition: all;
+}
+.car3{
+    width: 150px;
+    height: 100px;
+    fill: darkred;
+    margin-top: 33px;
+    transform: scaleX(-1);
+    position: relative;
+    transition: all;
+}
+.btn1{
+    padding: 10px 20px 10px 20px;
+    border-radius: 20%;
+}
+
+
+
