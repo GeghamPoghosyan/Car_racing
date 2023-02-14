@@ -16,6 +16,7 @@ class Racing extends Component {
     }
     start = ()=>{
         this.setState({left:"90%"});
+
         this.car1 = _.random(1000,6000);
         this.car2 = _.random(1000,6000);
         this.car3 = _.random(1000,6000);
